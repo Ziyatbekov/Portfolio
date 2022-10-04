@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'roboto' sans-serif;
+}
+.wrapper {
+    width: 70%;
+    margin: auto
+}
+.intro {
+    background-color: #EEEFF1;
+    height: 100vh;
+}
+.intro-info {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 0;
+}
+.intro-img {
+    width: 35%;
+}
+.intro-text {
+    width: 55%;
+}
+h1{
+    font-size: 48px;
+    font-weight: 500;
+    color: #000000;
+}
+.intro-descr {
+    color: #727272;
+    padding: 60px 0;
+}
+.intro-btn {
+    padding: 25px 40px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #34547a;
+    border: none;
+}
+.nav-link {
+    font-family: 'roboto' sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+/* about */
+.about {
+    padding: 100px 0;
+    text-align: center;
+}
+h2, h3 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.about-descr {
+    width: 50%;
+    margin: auto;
+    color: #727272;
+}
+/*projects and skills*/
+.projects-back {
+    width: 100%;
+    height: 35vh;
+    background-color: #34547A;
+}
+.projects-block {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #34547A;
+}
+.projects {
+    width: 130px;
+    padding: 100px 10px;
+}
+.skills {
+    height: 60vh;
+    background-color: #E5E5E5;
+}
+.my-skills {
+    width: 70%;
+    margin: auto;
+    padding-top: 70px;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.progress-skills{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.progress {
+    width: 70%;
+    height: 5px;
+    background-color: gray;
+}
+.progress-bar {
+    width: 70%;
+    height: 5px;
+    background-color: #34547a;
+}
+.my-photo {
+    width: 35%;
+}
+/*process*/
+.process {
+    padding: 100px 0;
+    background-color: #E5E5E5;
+    text-align: center;
+}
+.process-title {
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+}
+.process-descr {
+    width: 50%;
+    margin: 50px auto;
+    color: #727272;
+}
+iframe {
+    width: 70%;
+    height: 500px;
+}
+/*portfolio*/
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-item {
+    width: 25%;
+    height: 25vw;
+    background-size: 100%;
+}
+.laptop {
+    background-image: url(../img/Rectangle\ 7.3.png);
+}
+.sticker {
+    background-image: url(../img/Rectangle\ 7.png);
+}
+.portfolio-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8));
+    opacity: 0;
+}
+.portfolio-hover:hover {
+    opacity: 1;
+}
+/*microsof*/
+.microsoft {
+    width: 100%;
+    height: 35vh;
+    background-color: #E5E5E5;
+}
+.micro-img {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #E5E5E5;
+}
+.microsoft-img {
+    width: 220px;
+    padding: 80px 10px;
+}
+/*form*/
+.form-wrapper {
+    background-color: #EEEFF1;
+    padding: 100px 0;
+}
+.form-title {
+    text-align: center;
+}
+.form-descr {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+form {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.form-control-wrapper {
+    margin-bottom: 30px;
+}
+input {
+    width: calc(50% - 20px);
+    border: none;
+    padding: 20px;
+}
+input[type="text"] {
+    margin-right: 30px;
+}
+textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+input[type= "submit"] {
+    display: block;
+    margin: auto;
+    background-color: #34547A;
+    color: white;
+    letter-spacing: 0.15em;
+}
+.footer {
+        width: 100%;
+        height: 15vh;
+        background-color: #34547A;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.footer-contact {
+    width: 90%;
+    margin: auto;
+    background-color: #34547A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left {
+    color: white;
+}
